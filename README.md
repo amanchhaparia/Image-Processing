@@ -50,6 +50,6 @@ Applying Edge Detection in following sequence
 Applying dilation and erosion transformation to the image
 
 *Output*
-|<img width="112" height="150" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/4.Morphological_Transformation/morphological.png">|<img width="112" height="150" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/4.Morphological_Transformation/result_dilation.png">|<img width="112" height="150" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/4.Morphological_Transformation/result_erosion.png">|<img width="112" height="150" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/4.Morphological_Transformation/dilation-edge_detection.jpg">|
+|<img width="112" height="150" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/4.Morphological_Transformation/morphological.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/dilation.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/erosion.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/edge_detection.png">|
 |:---:|:---:|:---:|:---:|
 |Input-Image|Dilation|Erosion|Edge-Detection|
