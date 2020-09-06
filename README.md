@@ -24,7 +24,7 @@ Applying 5X5 filters to do the following task
 |Input Image|
 
 *Output*
-|<img width="640" height="450" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/2.Applying_Kernels/result_box_blur.png">|<img width="640" height="450" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/2.Applying_Kernels/result_blur.png">|<img width="640" height="450" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/2.Applying_Kernels/result_sharpen.png">|
+|<img width="640" height="450" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Kernels/box_blur.png">|<img width="640" height="450" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Kernels/gaussian_blur.png">|<img width="640" height="450" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Kernels/Sharpen.png">|
 |:---:|:---:|:---:|
 |Box Filter|Gaussian Filter|Sharpen|
 
