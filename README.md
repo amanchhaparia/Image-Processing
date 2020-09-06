@@ -4,7 +4,7 @@ The following operations are implemented without using the built-in library,Nump
 ### 1. Image Rotation
 
 The image can be rotated by any angle bound or inbound.
-rotation of bound image is performed using rotation matrix
+rotation of bound image is performed using rotation matrix\
 implemention of inbound matrix is left
 |<img width="640" height="450" src="https://github.com/amanchhaparia/Image-Processing/blob/master/assets/rotate.png">| 
 |:---:|
@@ -39,19 +39,19 @@ Applying Edge Detection in following sequence
 3. Sobel edge detection (right, left, top, bottom)
 4. Canny edge detection  
 
-2 types of edge detection were performed
-sobel
-smoothen the image by applying gaussian filter
-calucated horizontal edge
-calucated vertical edge
-final imageis obtained by resultant of horizontal and vertical
+2 types of edge detection were performed\
+sobel\
+smoothen the image by applying gaussian filter\
+calucated horizontal edge\
+calucated vertical edge\
+final imageis obtained by resultant of horizontal and vertical\
 
-canny
-smoothen the image by applying gaussian filter
-sobel filter applied
-non max suppersion
-thersold
-hystersis
+canny\
+smoothen the image by applying gaussian filter\
+sobel filter applied\
+non max suppersion\
+thersold\
+hystersis\
 |<img width="602" height="452" src="https://github.com/amanchhaparia/Image-Processing/blob/master/assets/edge-detection.png">|
 |:---:|
 |Input Image|
