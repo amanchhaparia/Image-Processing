@@ -4,7 +4,7 @@ The following operations are implemented without using the built-in library,Nump
 ### 1. Image Rotation
 
 The image can be rotated by any angle bound or inbound.
-|<img width="640" height="450" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/1.Image_Rotation/rotate.png">| 
+|<img width="640" height="450" src="https://github.com/amanchhaparia/Image-Processing/blob/master/assets/rotate.png">| 
 |:---:|
 |Input Image|
 
@@ -19,7 +19,7 @@ Applying 5X5 filters to do the following task
 1. Blurring 
 2. Sharpening
 
-|<img width="446" height="447" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/2.Applying_Kernels/test_sharpen.png">|
+|<img width="446" height="447" src="https://github.com/amanchhaparia/Image-Processing/blob/master/assets/filter.png">|
 |:---:|
 |Input Image|
 
@@ -35,7 +35,7 @@ Applying Edge Detection in following sequence
 3. Sobel edge detection (right, left, top, bottom)
 4. Canny edge detection  
 
-|<img width="602" height="452" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/3.Edge_Detection/edge-detection1.png">|
+|<img width="602" height="452" src="https://github.com/amanchhaparia/Image-Processing/blob/master/assets/edge-detection.png">|
 |:---:|
 |Input Image|
 
@@ -50,6 +50,6 @@ Applying Edge Detection in following sequence
 Applying dilation and erosion transformation to the image
 
 *Output*
-|<img width="112" height="150" src="https://github.com/gautam-dev-maker/Image_Processing/blob/master/4.Morphological_Transformation/morphological.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/dilation.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/erosion.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/edge_detection.png">|
+|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/assets/morphological.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/dilation.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/erosion.png">|<img width="112" height="150" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Morphological%20transformation/edge_detection.png">|
 |:---:|:---:|:---:|:---:|
 |Input-Image|Dilation|Erosion|Edge-Detection|
