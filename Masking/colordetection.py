@@ -3,21 +3,7 @@ import numpy as np
 import math
 from PIL import Image
 
-img = Image.open(r"assets/mask.jpg")
-img = np.array(img)
 
-def rgb2bgr(img):
-    res = np.zeros_like(img)
-    for i in range(img.shape[0]):
-        for j in range(img.shape[1]):
-            res[i][j][0] = img[i][j][2]
-            res[i][j][1] = img[i][j][1]
-            res[i][j][2] = img[i][j][0]
-    return res
-
-mask = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-
-mask = cv2.cvtColor(mask,cv2.COLOR_HSV2BGR)
 
 def color_detection(img,lower,upper):
     mask = np.zeros((img.shape[0],img.shape[1],img.shape[2]),dtype=np.uint8)
@@ -36,11 +22,16 @@ def color_detection(img,lower,upper):
     res = cv2.cvtColor(img, cv2.COLOR_HSV2RGB)
     return res
 
+img = Image.open(r"assets/mask.jpg")
+img = np.array(img)
+
 
 lower = np.array([94,130,38])
 upper = np.array([179,255,255])
 res = color_detection(img,lower,upper)
+
 final_img = Image.fromarray(res.astype(np.uint8))
 final_img.show()
+final_img.save("Masking/masked.png")
 
 
