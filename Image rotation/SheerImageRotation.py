@@ -3,6 +3,19 @@ import numpy as np
 import math
 from PIL import Image
 
+def sheerRotationCoordinate(x,y,angle):
+
+    tangent=math.tan(angle/2)
+    new_x=round(x-y*tangent)
+    new_y=y
+
+    new_y=round(new_x*math.sin(angle)+new_y)
+
+    new_x=round(new_x-new_y*tangent) 
+
+    return new_y,new_x
+
+
 img = Image.open(r"assets/rotate.png")
 img = np.array(img)
 angle_deg = float(input("Enter the angle:- "))
@@ -25,11 +38,13 @@ new_mid_col = int((new_width+1)/2-1)
 
 for row in range(height):
     for col in range(width):
-        y = round((row-old_mid_row)*math.cos(rad) - (col-old_mid_col)*math.sin(rad))
-        x = round((col-old_mid_col)*math.cos(rad) + (row-old_mid_row)*math.sin(rad)) 
+        y = row-old_mid_row
+        x = col-old_mid_col
 
-        new_x = new_mid_col +x
-        new_y = new_mid_row +y
+        new_y,new_x = sheerRotationCoordinate(y,x,rad)
+
+        new_x = new_mid_col +new_x
+        new_y = new_mid_row +new_y
 
         if (new_x >=0 and new_x<new_width and new_y>=0 and new_y<new_height):
             rot_img[new_y][new_x][:] = img[row][col][:]
@@ -37,3 +52,4 @@ for row in range(height):
 
 final_img = Image.fromarray(rot_img.astype("uint8"))
 final_img.show()
+final_img.save("Image rotation/rotated_bounded.png")

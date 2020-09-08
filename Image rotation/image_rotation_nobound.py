@@ -12,8 +12,8 @@ rad = angle_deg* (np.pi/180)
 height, width, m = img.shape
 
 
-new_height = round(abs(height*math.cos(rad))+abs(width*math.sin(rad)))
-new_width = round(abs(height*math.sin(rad))+abs(width*math.cos(rad)))
+new_height = height
+new_width = width
 
 rot_img = np.zeros((new_height,new_width,m))
 
