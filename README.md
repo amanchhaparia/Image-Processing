@@ -60,7 +60,7 @@ Applying dilation and erosion transformation to the image
 A *mask* is a binary image consisting of zero- and non-zero values. If a mask is applied to another binary or to a grayscale image of the same size, all pixels which are zero in the mask are set to zero in the output image. All others remain unchanged.   
 *Masking* is often used to restrict a point or arithmetic operator to an area defined by the mask. We can, for example, accomplish this by first masking the desired area in the input image and processing it with the operator, then masking the original input image with the inverted mask to obtain the unprocessed area of the image and finally recombining the two partial images using image addition.
 
-|<img width="600" height="322" src="https://github.com/amanchhaparia/Image-Processing/blob/master/assets/mask.jpg">|<img width="640" height="450" src="">|
+|<img width="600" height="322" src="https://github.com/amanchhaparia/Image-Processing/blob/master/assets/mask.jpg">|<img width="640" height="450" src="https://github.com/amanchhaparia/Image-Processing/blob/master/Masking/masked.png">|
 |:---:|:---:|
 |Input-Image|Masked Image(Blue ball detected)|
 
